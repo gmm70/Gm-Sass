@@ -1,0 +1,71 @@
+.todo {
+    background-color: $color-fondo;
+}
+
+.titulo {
+    text-align: center;
+    font-size: $tituloD;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: $color;
+    grid-area: titulo;
+}
+
+.filtro {
+    color: $color;
+    text-align: right;
+    margin-bottom: 20px;
+    border: solid $color-bg 3px;
+    overflow: auto;
+    font-size: 15px;
+        border-radius: 10px;
+    grid-area: filtro;
+}
+
+.marca {
+    background-color: $color-bg;
+    color: $color;
+    overflow: auto;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    grid-area: marca;
+}
+
+.marca2 {
+    background-color: $color-bg;
+    color: $color;
+    overflow: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+    grid-area: marca;
+}
+
+.lista {
+    padding-bottom: 0.5px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.catalogo {
+    grid-area: catalogo;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    img {
+    margin: 4px;
+
+    &:hover {
+        transform: scale(1.1);
+        border: 2px outset transparent;
+        border-image: linear-gradient(to right, rgb(24, 33, 69), rgb(227, 91, 52)) 1;
+    }}
+    p {
+        font-size: 15px;
+    }
+
+    div {
+        max-width: 210px;
+        max-height: 210px;
+        display: inline-block;
+        }}  

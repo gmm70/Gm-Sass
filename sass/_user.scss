@@ -1,0 +1,31 @@
+.logeo {
+    color: $color;
+    display: block;
+    text-align: center;
+
+    h2{
+        margin-top: -10px;}  
+        
+    p a {
+        text-decoration: none;
+        color: $color;}}
+
+.input {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: $color 2px solid;  
+    }
+
+.enviar {
+    width: 50%;
+    height: 50px;
+    margin-right: px;
+    text-align: center;
+    color: $color-bg;
+    background-color: $color;
+    border-radius: 20px;
+    border: $color 2px solid;
+    }

@@ -1,0 +1,68 @@
+$color: #182145;
+$color-fondo: #F9F3EE;
+$color-bg: #e35b34;
+$tituloD: 31px;
+$tituloM:25px;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", Sans-serif;
+}
+
+/*mobile*/
+@import "mobile";
+
+
+/*Desktop*/
+@import "desktop";
+
+
+/*comienzo del css de toda la pagina*/
+
+    html {
+        background-color: $color-fondo;
+    }
+
+    .tituloIndex {
+        display: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    section{    
+        background-color: $color-fondo;
+    }
+
+/*encabezado de la pagina*/
+   @import "header";
+/*fin del encabezado*/
+
+/*section del index*/
+    @import "section";
+/*fin del section del index*/
+
+/*footer*/
+    footer {
+        background-color: $color;
+        color: #F9F3EE;
+        margin-top: -30px;
+        border-top: 5px solid $color-bg;
+}
+/*fin del footer*/
+
+/*user.html*/
+   @import "user";
+/*Fin user.html*/
+
+/*calzado y demas html del sitio web*/
+    @import "htmls";
+/*Fin calzado y demas html del sitio web*/
+
+/*Carrito.html*/
+  @import "carrito";
+
+/*Fin Carrito.html*/

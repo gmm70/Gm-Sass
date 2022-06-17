@@ -1,0 +1,22 @@
+.compras{
+    color: $color;
+
+    img{
+        color: $color;
+    }}
+
+.recuadro{
+    display: flex ;
+}
+
+.pedido{
+    display: flex;
+
+    div{
+        color: #182145;
+    }
+    
+    input{
+    color: $color-bg;
+    background-color: $color;
+    }}
